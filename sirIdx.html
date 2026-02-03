@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <title>Weather App</title>
   </head>
@@ -20,21 +23,22 @@
     </header>
     <main>
       <div class="weather-container">
-        <div class="temperature">12.5 °C</div>
+        <div class="temperature">Temp°C</div>
         <div class="location-data">
-          <div class="location">Delhi</div>
-          <span class="time">9:15</span>
-          <span class="day">Friday</span>
-          <span class="date">2026-01-30</span>
+          <div class="location">Location</div>
+          <span class="time">Hour:Min</span>
+          <span class="day">day</span>
+          <span class="date">YYYY-MM-DD</span>
         </div>
         <div class="weather-status">
           <div class="icon">
             <img
               src="//cdn.weatherapi.com/weather/64x64/night/143.png"
               alt="weather-status-icon"
+              class="image"
             />
           </div>
-          <div class="condition">Sunny</div>
+          <div class="condition">Condition</div>
           <script src="./script.js"></script>
         </div>
       </div>
